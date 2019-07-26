@@ -58,5 +58,5 @@ const cubeResults = new CubeMaker({
   height: 5
 });
 
-console.log('The Volume of a Cube is', cubeResults.volume()); // 125
-console.log('The Surface area of a Cube is', cubeResults.cubeSurfaceArea()); // 150
+console.log('SG: The Volume of a Cube is', cubeResults.volume()); // 125
+console.log('SG: The Surface area of a Cube is', cubeResults.cubeSurfaceArea()); // 150
