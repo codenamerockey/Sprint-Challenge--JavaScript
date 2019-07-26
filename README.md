@@ -34,20 +34,21 @@ The biggest difference between forEach and Map is that Map returns an Array and 
 
 2. What is the difference between a function and a method?
 
-A function is defined within the global scope and invoked with it's name and parenthesis, while a method is defined within a Object and it is invoked using the dot notation.
+A function is defined within the global scope and invoked with it's name and parenthesis, while a Method is defined within an Object and is invoked using dot notation or bracket notation.
 
 3. What is closure?
 
-Closure is the ability for a function to reach out of its function body and use variables outside it's immediate scope or function block.
+Closure is the ability for a function to reach out of its function body and use variables outside it's immediate scope or function block, whether its the use of a globle variable or a variable within the scope of a outter function.
 
 4. Describe the four rules of the 'this' keyword.
 
-1. Window/Global Object Binding - When in the global scope, the value of “this” will be the window/console Object.
+- Window/Global Object Binding - When in the global scope, the value of “this” will be the window/console Object.
 
-1. Implicit Binding - Whenever a function is called by a preceding dot, the object before that dot is 'this'.
-1. New binding - Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.
+- Implicit Binding - Whenever a function is called by a preceding dot, the object before that dot is 'this'.
 
-1. Explicit binding - Whenever JavaScript’s call or apply method is used, 'this' is explicitly defined.
+- New binding - Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.
+
+- Explicit binding - Whenever JavaScript’s call or apply method is used, 'this' is explicitly defined.
 
 1. Why do we need super() in an extended class?
 

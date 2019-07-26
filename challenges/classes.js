@@ -1,6 +1,7 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
 
 class SecondCuboidMaker {
+  // not able to reuse CuboidMaker as a class name
   constructor(attributes) {
     this.length = attributes.length;
     this.width = attributes.width;

@@ -37,7 +37,7 @@ console.log(consume('Mary', 'Poppins', greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-/* Explanation: Closure is the ability for a function to reach out of its function body and use variables outside it's immediate scope or function block. When the function named nested function is created inside the scope of the 'function' named myFunction  a closure is created and also a parent child relationship between nested function and myFunction giving nestedFunction access to any variables created within that scope of it's parent function/functions, it basically allows a function to remember the scope it has been created inside of, a reference so to speak  and allows usage of all variables inside that scope or reference of where it was created.*/
+/* Explanation: Closure is the ability for a function to reach out of its function body and use variables outside it's immediate scope or function block. So, when the function named nested function is created inside the scope of the 'function' named myFunction a closure is created and a added relationship between nested function(inner function) and myFunction(outer function) giving nestedFunction access to any variables created within that scope of the outer function/functions, it basically allows a function to remember the scope it has been created inside of, a reference so to speak  and allows usage of all variables inside that scope or referenced area of where it was created.*/
 
 const external = "I'm outside the function";
 
